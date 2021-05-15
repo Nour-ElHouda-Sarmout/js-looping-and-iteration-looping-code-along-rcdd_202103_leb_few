@@ -6,3 +6,9 @@ function writeCards(array, str){
 }
 return thanks;
 }
+
+function countDown(num){
+  while (num > 0) {
+  console.log(num--);
+}
+}
